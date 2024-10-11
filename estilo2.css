@@ -1,0 +1,122 @@
+body{
+    background-image: url(img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0; /* Formatear margenes por defecto*/
+    padding: 0;
+    font-family: sans-serif; /*Tema de letra*/
+}
+
+#Contenedor{
+    padding: 10px;
+}
+#Cabecera{
+    border: 1px solid rgb(255, 11, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    height: 150px;
+    
+}
+#Cabecera img{
+    width: 150px;
+    
+}
+
+
+#Menu a:hover{
+    background-color: blue;
+}
+#Menud a:hover{
+    background-color: rgb(198, 21, 211);
+}
+#Contenido a:hover{
+    background-color: rgb(198, 21, 211);
+}
+
+
+#Contenido img{
+    width: 100%;
+    
+}
+#texto{
+    height: 100%;
+    padding: 50px;
+    margin: 0;
+    width: 55%;
+    border: 1px solid darkcyan;
+    color: rgb(177, 14, 136);
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#texto2{
+    width: 80%;
+    padding: 50px;
+    margin: 0;
+    border: 1px solid darkcyan;
+    background-color: rgb(77, 6, 77);
+    color: rgb(177, 14, 136);
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Pie{
+    border: 1px solid rgb(255, 11, 255);
+}
+.uno{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+.dos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#Menud ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none; /*Retirar la viñeta*/
+    font-size: 13pt; /*Tamaño*/
+    height: 100%;
+    padding: auto;
+    margin:10px;
+    
+}
+#Menud a{
+    color: black;
+    text-decoration: none;
+}
+#Menu ul{
+    list-style-type: none;
+    display: flex;
+    margin: 10px 20px;
+    
+}
+#Menu a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+#Contenido a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+#Contenido img{
+    width: 100%;
+    
+}
